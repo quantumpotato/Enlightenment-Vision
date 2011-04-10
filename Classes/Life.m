@@ -41,7 +41,6 @@
 -(void)calculateThrust {
 	
 	self.thrust = GetAngle(self.l, self.target);
-	NSLog(@"target: %f %f",self.target.x, self.target.y);
 	
 	if (self.target.x > self.l.x) {
 		if (self.vel.x > 0) {
@@ -111,11 +110,21 @@
 -(void)move {
 	[self calculateThrust];
 	[super move];
-	NSLog(@"self.vel: %f %f",self.vel.x, self.vel.y);
-	NSLog(@"self.l: %f %f",self.l.x, self.l.y);
+	[self recover];
 }
 
 -(void)recover {
+	if (self.strength < 100) {
+		self.strength+= self.recoveryRate;
+	} else if (self.strength > 100) {
+		self.strength = 100;
+	}
+
+	if (self.strength < 0) {
+		self.strength = 0;
+	}
+	
+	self.imageView.transform = CGAffineTransformMakeScale(self.strength / 100, self.strength / 100);
 	
 }
 

@@ -16,6 +16,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MovementOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MovementOneViewController.m */; };
 		BF0A529F134D526E006A6D01 /* Life.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A529E134D526E006A6D01 /* Life.m */; };
+		BF2E7BAF135164AF004E5002 /* whitedot8.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2E7BAE135164AF004E5002 /* whitedot8.png */; };
 		BF491159124899CA006E6E90 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = BF491158124899CA006E6E90 /* Ball.m */; };
 		BFA7834D1248DEE50087F688 /* whitedot.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA783491248DEE50087F688 /* whitedot.png */; };
 		BFA7834E1248DEE50087F688 /* redtriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA7834A1248DEE50087F688 /* redtriangle.png */; };
@@ -23,6 +24,7 @@
 		BFA783501248DEE50087F688 /* greenblot.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA7834C1248DEE50087F688 /* greenblot.png */; };
 		BFA783BE1248E82A0087F688 /* cmpgames.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA783BD1248E82A0087F688 /* cmpgames.m */; };
 		BFBB15FD13515C2C0098B193 /* Mind.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB15FC13515C2C0098B193 /* Mind.m */; };
+		BFBB1658135162450098B193 /* Vision.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB1657135162450098B193 /* Vision.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,7 @@
 		8D1107310486CEB800E47090 /* MovementOne-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MovementOne-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		BF0A529D134D526E006A6D01 /* Life.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Life.h; sourceTree = "<group>"; };
 		BF0A529E134D526E006A6D01 /* Life.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Life.m; sourceTree = "<group>"; };
+		BF2E7BAE135164AF004E5002 /* whitedot8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitedot8.png; sourceTree = "<group>"; };
 		BF491157124899CA006E6E90 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		BF491158124899CA006E6E90 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
 		BFA783491248DEE50087F688 /* whitedot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitedot.png; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		BFA783BD1248E82A0087F688 /* cmpgames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cmpgames.m; sourceTree = "<group>"; };
 		BFBB15FB13515C2C0098B193 /* Mind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mind.h; sourceTree = "<group>"; };
 		BFBB15FC13515C2C0098B193 /* Mind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mind.m; sourceTree = "<group>"; };
+		BFBB1656135162450098B193 /* Vision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vision.h; sourceTree = "<group>"; };
+		BFBB1657135162450098B193 /* Vision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vision.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,8 @@
 				BF0A529E134D526E006A6D01 /* Life.m */,
 				BFBB15FB13515C2C0098B193 /* Mind.h */,
 				BFBB15FC13515C2C0098B193 /* Mind.m */,
+				BFBB1656135162450098B193 /* Vision.h */,
+				BFBB1657135162450098B193 /* Vision.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				BFA783491248DEE50087F688 /* whitedot.png */,
+				BF2E7BAE135164AF004E5002 /* whitedot8.png */,
 				BFA7834A1248DEE50087F688 /* redtriangle.png */,
 				BFA7834B1248DEE50087F688 /* orangediamond.png */,
 				BFA7834C1248DEE50087F688 /* greenblot.png */,
@@ -193,6 +201,7 @@
 				BFA7834E1248DEE50087F688 /* redtriangle.png in Resources */,
 				BFA7834F1248DEE50087F688 /* orangediamond.png in Resources */,
 				BFA783501248DEE50087F688 /* greenblot.png in Resources */,
+				BF2E7BAF135164AF004E5002 /* whitedot8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +219,7 @@
 				BFA783BE1248E82A0087F688 /* cmpgames.m in Sources */,
 				BF0A529F134D526E006A6D01 /* Life.m in Sources */,
 				BFBB15FD13515C2C0098B193 /* Mind.m in Sources */,
+				BFBB1658135162450098B193 /* Vision.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

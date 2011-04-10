@@ -8,12 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "Life.h"
+#import "Vision.h"
 
 @interface Mind : NSObject {
 	UIView *view;
 	Life *life;
+	Vision *vision;
 	
-	int shotset, shot, sshot; //Shot set, shot number in set, scored shots
+	int shotset, shot, sshot;
 	int orangedeflects;
 
 	float pillarRadius;
@@ -24,6 +26,7 @@
 
 @property(nonatomic,retain) UIView *view;
 @property(nonatomic,retain) Life *life;
+@property(nonatomic,retain) Vision *vision;
 
 -(id)initWithView:(UIView *)newView;
 

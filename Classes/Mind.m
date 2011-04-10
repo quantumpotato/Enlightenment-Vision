@@ -10,7 +10,7 @@
 
 
 @implementation Mind
-@synthesize view, life;
+@synthesize view, life, vision;
 
 -(id)initWithView:(UIView *)newView {
 	self = [super init];
@@ -18,6 +18,8 @@
 		self.view = newView;	
 		self.life = [[Life alloc] init];
 		[newView addSubview:self.life.imageView];
+		self.vision = [[Vision alloc] init];
+		[newView addSubview:self.vision.imageView];
 		[self resetPhysics];
 		
 		timer = [[NSTimer scheduledTimerWithTimeInterval:0.04 target:self selector:@selector(loop) userInfo:nil repeats:YES] retain];
@@ -32,9 +34,31 @@
 	return NO;
 }
 
+-(void)visionFailed {
+	[self resetPhysics];	
+}
+
+-(void)popLife {
+	self.life.strength -= sshot;
+	if (self.life.strength <= 0) {
+		[self visionFailed];
+	}
+}
+
+-(void)checkForEnlightenment {
+	if ([self proximal:self.life :self.vision]) {
+		[self popLife];
+	}
+}
+
 -(void)loop {
+	sshot = 10;
 	if (gamestate == 1) {
 		[self.life move];	
+		[self.vision move];
+	
+		[self checkForEnlightenment];
+		
 	}
 }
 
@@ -49,6 +73,7 @@
 
 -(void)touch:(CGPoint)touchLoc {
 	gamestate = 1;
+	self.vision.l = touchLoc;
 	self.life.target = touchLoc;	
 }
 
