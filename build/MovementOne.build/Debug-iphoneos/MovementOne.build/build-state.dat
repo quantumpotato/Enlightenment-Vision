@@ -1,885 +1,0 @@
-TMovementOne
-v7
-r0
-t318403405.942548
-cCheck dependencies
-cCpResource build/Debug-iphoneos/MovementOne.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/Info.plist MovementOne-Info.plist
-cCompileXIB /Users/cmp/MovementOne/MainWindow.xib
-cCompileXIB /Users/cmp/MovementOne/MovementOneViewController.xib
-cCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/whitedot.png whitedot.png
-cCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/redtriangle.png redtriangle.png
-cCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/orangediamond.png orangediamond.png
-cCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/greenblot.png greenblot.png
-cProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/main.o /Users/cmp/MovementOne/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneAppDelegate.o /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneViewController.o /Users/cmp/MovementOne/Classes/MovementOneViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/Ball.o /Users/cmp/MovementOne/Classes/Ball.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/cmpgames.o /Users/cmp/MovementOne/Classes/cmpgames.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne normal armv6
-cGenerateDSYMFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app.dSYM /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne
-cProcessProductPackaging "/Users/cmp/Library/MobileDevice/Provisioning Profiles/A617AA53-FE6E-4362-B420-43EB9202010B.mobileprovision" /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision
-cTouch /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-cCodeSign /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
-c000000004B47D28D0000000000000110
-t1262998157
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
-c000000004A0BA04000000000000000DD
-t1242275904
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
-c000000004A0BA04000000000000001E5
-t1242275904
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004A121EB900000000003D72A0
-t1242701497
-s4027040
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A121FF90000000000396540
-t1242701817
-s3761472
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A0BAECB0000000000001355
-t1242279627
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A0CBEBD000000000000075E
-t1242349245
-s1886
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A1221FD00000000019A6110
-t1242702333
-s26894608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004BA82B910000000000000110
-t1269312401
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004B9F103D00000000000000DD
-t1268715581
-s221
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004B9F103D00000000000001E5
-t1268715581
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BA03AC100000000003B4B70
-t1268792001
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B9F26D2000000000036A650
-t1268721362
-s3581520
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B9F26B90000000000001355
-t1268721337
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004B9F318D000000000000098F
-t1268724109
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004B9F32090000000002703230
-t1268724233
-s40907312
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004C1BB8220000000000000110
-t1276885026
-s272
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-c000000004C06E99F00000000000001A7
-t1275521439
-s423
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-c000000004C06E99F00000000000001E5
-t1275521439
-s485
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C005A1C00000000003B4B70
-t1275091484
-s3885936
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C005A45000000000036A640
-t1275091525
-s3581504
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C005A310000000000001355
-t1275091505
-s4949
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C00642C000000000000098F
-t1275094060
-s2447
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0064A60000000002703220
-t1275094182
-s40907296
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C3671890000000000000110
-t1278636425
-s272
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C2A7DA700000000000001A7
-t1277853095
-s423
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C2A7DA700000000000001E5
-t1277853095
-s485
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Users/cmp/Library/MobileDevice/Provisioning Profiles/555CABE6-CDE3-4ECF-A3D4-2815C4650D49.mobileprovision
-c000000004C6D6B840000000000001DD1
-t1282239364
-s7633
-
-N/Users/cmp/Library/MobileDevice/Provisioning Profiles/A617AA53-FE6E-4362-B420-43EB9202010B.mobileprovision
-c000000004C6EC2880000000000001E0D
-t1282327176
-s7693
-
-N/Users/cmp/MovementOne/Classes/Ball.h
-c000000004CB527010000000000000BB4
-t1286940417
-s2996
-i<Foundation/Foundation.h>
-i"cmpgames.h"
-
-N/Users/cmp/MovementOne/Classes/Ball.m
-c000000004D4A3B9E0000000000001C71
-t1296710558
-s7281
-i"Ball.h"
-
-N/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.h
-c000000004C98623900000000000001EC
-t1285055033
-s492
-i<UIKit/UIKit.h>
-
-N/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m
-c000000004C9862390000000000000A94
-t1285055033
-s2708
-i"MovementOneAppDelegate.h"
-i"MovementOneViewController.h"
-
-N/Users/cmp/MovementOne/Classes/MovementOneViewController.h
-c000000004CB529D20000000000000283
-t1286941138
-s643
-i<UIKit/UIKit.h>
-i"Ball.h"
-i"cmpgames.h"
-
-N/Users/cmp/MovementOne/Classes/MovementOneViewController.m
-c000000004D4A3BCD0000000000001A7F
-t1296710605
-s6783
-i"MovementOneViewController.h"
-
-N/Users/cmp/MovementOne/Classes/cmpgames.h
-c000000004D4A379F00000000000001EE
-t1296709535
-s494
-i<Foundation/Foundation.h>
-
-N/Users/cmp/MovementOne/Classes/cmpgames.m
-c000000004D4A379600000000000005E1
-t1296709526
-s1505
-i"cmpgames.h"
-
-N/Users/cmp/MovementOne/MainWindow.xib
-c000000004C9862390000000000004E59
-t1285055033
-s20057
-
-N/Users/cmp/MovementOne/MovementOneViewController.xib
-c000000004C98AA2F0000000000003A29
-t1285073455
-s14889
-
-N/Users/cmp/MovementOne/MovementOne_Prefix.pch
-c000000004C98623900000000000000BF
-t1285055033
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-t1296710605
-s510
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app.dSYM
-t1296710605
-s102
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/Info.plist
-t1285131701
-s726
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MainWindow.nib
-t1285131702
-s1518
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne
-t1296710605
-s80032
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOneViewController.nib
-t1285131702
-s1151
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/PkgInfo
-t1285131701
-s8
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/ResourceRules.plist
-t1285131701
-s485
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision
-t1285131521
-s7693
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/greenblot.png
-t1285131483
-s166
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/orangediamond.png
-t1285131483
-s183
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/redtriangle.png
-t1285131483
-s183
-
-N/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/whitedot.png
-t1285131483
-s162
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-t1285131703
-s324
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/Ball.o
-t1296710605
-s69068
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne
-t1285131368
-s46816
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne.LinkFileList
-c000000004C998C490000000000000247
-t1285131337
-s583
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneAppDelegate.o
-t1296709536
-s41748
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneViewController.o
-t1296710605
-s69112
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/cmpgames.o
-t1296709536
-s8936
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/main.o
-t1296709536
-s6464
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/Ball.o
-t1285131368
-s32212
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne
-t1285131368
-s42096
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne.LinkFileList
-c000000004C998C490000000000000247
-t1285131337
-s583
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneAppDelegate.o
-t1285131367
-s45996
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneViewController.o
-t1285131368
-s63528
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/cmpgames.o
-t1285131368
-s7836
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/main.o
-t1285131367
-s6424
-
-N/Users/cmp/MovementOne/greenblot.png
-c000000004C98689300000000000000AD
-t1285056659
-s173
-
-N/Users/cmp/MovementOne/main.m
-c000000004C9862390000000000000162
-t1285055033
-s354
-i<UIKit/UIKit.h>
-
-N/Users/cmp/MovementOne/orangediamond.png
-c000000004C986B7100000000000000E2
-t1285057393
-s226
-
-N/Users/cmp/MovementOne/redtriangle.png
-c000000004C98699300000000000000C3
-t1285056915
-s195
-
-N/Users/cmp/MovementOne/whitedot.png
-c000000004C986C1C000000000000009F
-t1285057564
-s159
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-bevoqinzwyvtjiefviivdqykvsoy/MovementOne_Prefix.pch.gch
-t1285131367
-s8958612
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-btlonglonwmmhigqlqkbxobrmevo/MovementOne_Prefix.pch.gch
-t1285131484
-s8958612
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch.gch
-t1285131367
-s9425556
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch.gch
-t1296709535
-s8335488
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-djdifxrwofswyqalmlcnucqnwqvs/MovementOne_Prefix.pch.gch
-t1285131702
-s8339584
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dsyharqqsytbywgvzqtsuvlwylqa/MovementOne_Prefix.pch.gch
-t1285131339
-s10303024
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-grcowvqrkupaeddjghmrzvnrtiqg/MovementOne_Prefix.pch.gch
-t1285131339
-s9831984
-
-NMovementOne-Info.plist
-c000000004C998DB500000000000003B4
-t1285131701
-s948
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies318403405#318403405#0(0"0(0#1#0"4300911832#0"0#
-
-CCodeSign /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-s318403405.810359
-e318403405.942511
-r1
-xCodeSign
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-lSLF07#2@45"CodeSign build/Debug-iphoneos/MovementOne.app318403405#318403405#0(0"0(0#0#59"/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app4300911832#618"    cd /Users/cmp/MovementOne    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Distribution: Anthony Broussard" --resource-rules=/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/ResourceRules.plist --entitlements /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/Ball.o /Users/cmp/MovementOne/Classes/Ball.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318403405.557328
-e318403405.768104
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/Ball.o
-x/Users/cmp/MovementOne/Classes/Ball.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/cmp/MovementOne/Classes/Ball.m318403405#318403405#0(0"0(0#0#37"/Users/cmp/MovementOne/Classes/Ball.m4300911832#1639"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/Ball.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/Ball.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneAppDelegate.o /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318402335.984377
-e318402336.100599
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneAppDelegate.o
-x/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m318402335#318402336#0(0"0(0#0#55"/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m4300911832#1675"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneAppDelegate.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneViewController.o /Users/cmp/MovementOne/Classes/MovementOneViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318403405.553935
-e318403405.714990
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneViewController.o
-x/Users/cmp/MovementOne/Classes/MovementOneViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController obstacleLoop]':
-o/Users/cmp/MovementOne/Classes/MovementOneViewController.m:269: warning: unused variable 'l'
-lSLF07#2@66"Compile /Users/cmp/MovementOne/Classes/MovementOneViewController.m318403405#318403405#0(210"/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController obstacleLoop]':/Users/cmp/MovementOne/Classes/MovementOneViewController.m:269: warning: unused variable 'l'1(22@19"Unused variable 'l'318403405#117#93#0(6@58"/Users/cmp/MovementOne/Classes/MovementOneViewController.m318403405#269#0#269#0#19"unused variable '*'0(0#0#58"/Users/cmp/MovementOne/Classes/MovementOneViewController.m4300911832#1681"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/MovementOneViewController.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOneViewController.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/cmpgames.o /Users/cmp/MovementOne/Classes/cmpgames.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318402336.230416
-e318402336.289416
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/cmpgames.o
-x/Users/cmp/MovementOne/Classes/cmpgames.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/cmp/MovementOne/Classes/cmpgames.m318402336#318402336#0(0"0(0#0#41"/Users/cmp/MovementOne/Classes/cmpgames.m7310313482417811456#1647"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/cmpgames.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/cmpgames.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/main.o /Users/cmp/MovementOne/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318402335.983214
-e318402336.099374
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/main.o
-x/Users/cmp/MovementOne/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Compile /Users/cmp/MovementOne/main.m318402335#318402336#0(0"0(0#0#29"/Users/cmp/MovementOne/main.m4300911832#1631"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/main.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/Ball.o /Users/cmp/MovementOne/Classes/Ball.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824168.097690
-e306824168.201159
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/Ball.o
-x/Users/cmp/MovementOne/Classes/Ball.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@45"Compile /Users/cmp/MovementOne/Classes/Ball.m306824168#306824168#0(0"0(0#0#37"/Users/cmp/MovementOne/Classes/Ball.m8638891584#1668"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/Ball.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/Ball.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneAppDelegate.o /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824167.922567
-e306824168.000580
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneAppDelegate.o
-x/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m306824167#306824168#0(0"0(0#0#55"/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m8636027232#1704"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneAppDelegate.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneViewController.o /Users/cmp/MovementOne/Classes/MovementOneViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824168.000670
-e306824168.097594
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneViewController.o
-x/Users/cmp/MovementOne/Classes/MovementOneViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController obstacleLoop]':
-o/Users/cmp/MovementOne/Classes/MovementOneViewController.m:174: warning: unused variable 'l'
-o/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController viewDidLoad]':
-o/Users/cmp/MovementOne/Classes/MovementOneViewController.m:199: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)
-lSLF07#2@66"Compile /Users/cmp/MovementOne/Classes/MovementOneViewController.m306824168#306824168#0(606"/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController obstacleLoop]':/Users/cmp/MovementOne/Classes/MovementOneViewController.m:174: warning: unused variable 'l'/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController viewDidLoad]':/Users/cmp/MovementOne/Classes/MovementOneViewController.m:199: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)2(22@19"Unused variable 'l'306824168#117#93#0(6@58"/Users/cmp/MovementOne/Classes/MovementOneViewController.m306824048#174#0#174#0#19"unused variable '*'0(22@206"'setStatusBarHidden:animated:' is deprecated (declared at /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)306824168#326#280#0(6@58"/Users/cmp/MovementOne/Classes/MovementOneViewController.m306824048#199#0#199#0#33"'*' is deprecated (declared at *)0(0#0#58"/Users/cmp/MovementOne/Classes/MovementOneViewController.m8635326976#1710"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/MovementOneViewController.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOneViewController.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/cmpgames.o /Users/cmp/MovementOne/Classes/cmpgames.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824168.172627
-e306824168.230179
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/cmpgames.o
-x/Users/cmp/MovementOne/Classes/cmpgames.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/cmp/MovementOne/Classes/cmpgames.m306824168#306824168#0(0"0(0#0#41"/Users/cmp/MovementOne/Classes/cmpgames.m8637241152#1676"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/cmpgames.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/cmpgames.o0#
-
-CCompileC build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/main.o /Users/cmp/MovementOne/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824167.868506
-e306824167.922497
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/main.o
-x/Users/cmp/MovementOne/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Compile /Users/cmp/MovementOne/main.m306824167#306824167#0(0"0(0#0#29"/Users/cmp/MovementOne/main.m8637235040#1660"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/main.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/cmp/MovementOne/MainWindow.xib
-s306824501.804165
-e306824502.085048
-r1
-xCompileXIB
-x/Users/cmp/MovementOne/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib306824501#306824502#0(0"0(0#0#37"/Users/cmp/MovementOne/MainWindow.xib4300911832#422"    cd /Users/cmp/MovementOne    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MainWindow.nib /Users/cmp/MovementOne/MainWindow.xib0#
-
-CCompileXIB /Users/cmp/MovementOne/MovementOneViewController.xib
-s306824501.804821
-e306824502.081330
-r1
-xCompileXIB
-x/Users/cmp/MovementOne/MovementOneViewController.xib
-lSLF07#2@40"CompileXIB MovementOneViewController.xib306824501#306824502#0(0"0(0#0#52"/Users/cmp/MovementOne/MovementOneViewController.xib4300911832#452"    cd /Users/cmp/MovementOne    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOneViewController.nib /Users/cmp/MovementOne/MovementOneViewController.xib0#
-
-CCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/greenblot.png greenblot.png
-s306824283.650052
-e306824283.668484
-r1
-xCopyPNGFile
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/greenblot.png
-xgreenblot.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/MovementOne.app/greenblot.png greenblot.png306824283#306824283#0(0"0(0#0#36"/Users/cmp/MovementOne/greenblot.png4300911832#522"    cd /Users/cmp/MovementOne    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cmp/MovementOne/greenblot.png /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/greenblot.png0#
-
-CCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/orangediamond.png orangediamond.png
-s306824283.649138
-e306824283.669174
-r1
-xCopyPNGFile
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/orangediamond.png
-xorangediamond.png
-lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/MovementOne.app/orangediamond.png orangediamond.png306824283#306824283#0(0"0(0#0#40"/Users/cmp/MovementOne/orangediamond.png4300911832#530"    cd /Users/cmp/MovementOne    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cmp/MovementOne/orangediamond.png /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/orangediamond.png0#
-
-CCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/redtriangle.png redtriangle.png
-s306824283.587634
-e306824283.649996
-r1
-xCopyPNGFile
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/redtriangle.png
-xredtriangle.png
-lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/MovementOne.app/redtriangle.png redtriangle.png306824283#306824283#0(0"0(0#0#38"/Users/cmp/MovementOne/redtriangle.png4300911832#526"    cd /Users/cmp/MovementOne    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cmp/MovementOne/redtriangle.png /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/redtriangle.png0#
-
-CCopyPNGFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/whitedot.png whitedot.png
-s306824283.586810
-e306824283.649051
-r1
-xCopyPNGFile
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/whitedot.png
-xwhitedot.png
-lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/MovementOne.app/whitedot.png whitedot.png306824283#306824283#0(0"0(0#0#35"/Users/cmp/MovementOne/whitedot.png4300911832#520"    cd /Users/cmp/MovementOne    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cmp/MovementOne/whitedot.png /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/whitedot.png0#
-
-CCpResource build/Debug-iphoneos/MovementOne.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
-s306824501.778511
-e306824501.804081
-r1
-xCpResource
-xbuild/Debug-iphoneos/MovementOne.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist306824501#306824501#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist4300911832#452"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app0#
-
-CCpResource build/Debug-iphoneos/MovementOne.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s306824278.374848
-e306824278.538313
-r1
-xCpResource
-xbuild/Debug-iphoneos/MovementOne.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist306824278#306824278#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist7311142388610462720#452"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app0#
-
-CCpResource build/Debug-iphoneos/MovementOne.app/ResourceRules.plist /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-s306824166.230542
-e306824166.256191
-r1
-xCpResource
-xbuild/Debug-iphoneos/MovementOne.app/ResourceRules.plist
-x/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
-lSLF07#2@102"Copy /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist306824166#306824166#0(0"0(0#0#97"/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8630365504#484"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app0#
-
-CCpResource build/Debug-iphoneos/MovementOne.app/ResourceRules.plist /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s306824137.975475
-e306824138.011395
-r1
-xCpResource
-xbuild/Debug-iphoneos/MovementOne.app/ResourceRules.plist
-x/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@102"Copy /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist306824137#306824138#0(0"0(0#0#97"/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8630367808#484"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app0#
-
-CCreateUniversalBinary /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne normal "armv6 armv7"
-s306824168.388049
-e306824168.391367
-r1
-xCreateUniversalBinary
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne
-xnormal
-xarmv6 armv7
-lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/MovementOne.app/MovementOne normal "armv6 armv7"306824168#306824168#0(0"0(0#0#34"/Users/cmp/MovementOne/armv6 armv78640134112#502"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne -output /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne0#
-
-CGenerateDSYMFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app.dSYM /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne
-s318403405.790121
-e318403405.807576
-r1
-xGenerateDSYMFile
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app.dSYM
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne
-lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/MovementOne.app.dSYM build/Debug-iphoneos/MovementOne.app/MovementOne318403405#318403405#0(0"0(0#0#71"/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne4300911832#326"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne -o /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app.dSYM0#
-
-CLd /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne normal armv6
-s318403405.768181
-e318403405.790033
-r1
-xLd
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne
-xnormal
-xarmv6
-lSLF07#2@76"Link /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne318403405#318403405#0(0"0(0#0#0"4300911832#762"    cd /Users/cmp/MovementOne    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Users/cmp/MovementOne/build/Debug-iphoneos -F/Users/cmp/MovementOne/build/Debug-iphoneos -filelist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/MovementOne0#
-
-CLd /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne normal armv6
-s306824167.921216
-e306824168.172533
-r1
-xLd
-x/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne
-xnormal
-xarmv6
-lSLF07#2@117"Link /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne306824167#306824168#0(0"0(0#0#0"8636975424#835"    cd /Users/cmp/MovementOne    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/cmp/MovementOne/build/Debug-iphoneos -F/Users/cmp/MovementOne/build/Debug-iphoneos -filelist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv6/MovementOne0#
-
-CLd /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne normal armv7
-s306824168.230270
-e306824168.387954
-r1
-xLd
-x/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne
-xnormal
-xarmv7
-lSLF07#2@117"Link /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne306824168#306824168#0(0"0(0#0#0"8636589312#835"    cd /Users/cmp/MovementOne    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -L/Users/cmp/MovementOne/build/Debug-iphoneos -F/Users/cmp/MovementOne/build/Debug-iphoneos -filelist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/Objects-normal/armv7/MovementOne0#
-
-CProcessInfoPlistFile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/Info.plist MovementOne-Info.plist
-s306824501.780129
-e306824501.783970
-r1
-xProcessInfoPlistFile
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/Info.plist
-xMovementOne-Info.plist
-lSLF07#2@30"Process MovementOne-Info.plist306824501#306824501#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne-Info.plist4300911832#514"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MovementOne-Info.plist -genpkginfo /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/ResourceRules.plist -o /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/Info.plist0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-bevoqinzwyvtjiefviivdqykvsoy/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s306824166.686891
-e306824167.652745
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-bevoqinzwyvtjiefviivdqykvsoy/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306824166#306824167#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch8636301952#1570"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-bevoqinzwyvtjiefviivdqykvsoy/MovementOne_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-btlonglonwmmhigqlqkbxobrmevo/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s306824283.669353
-e306824284.334628
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-btlonglonwmmhigqlqkbxobrmevo/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306824283#306824284#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch4300911832#1538"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-btlonglonwmmhigqlqkbxobrmevo/MovementOne_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824166.687732
-e306824167.602823
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306824166#306824167#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch8635651680#1570"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-coasobihbytmsyayshlgpcwmlwko/MovementOne_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318402335.394616
-e318402335.983079
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch318402335#318402335#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch8020118684303713280#1541"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-cqgnxfwhdolcvebgthomjbllipsx/MovementOne_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-djdifxrwofswyqalmlcnucqnwqvs/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s306824502.085177
-e306824502.825369
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-djdifxrwofswyqalmlcnucqnwqvs/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306824502#306824502#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch4300911832#1538"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-djdifxrwofswyqalmlcnucqnwqvs/MovementOne_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dsyharqqsytbywgvzqtsuvlwylqa/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s306824138.504222
-e306824139.538203
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dsyharqqsytbywgvzqtsuvlwylqa/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306824138#306824139#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch8634770272#1570"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv7 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dsyharqqsytbywgvzqtsuvlwylqa/MovementOne_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-grcowvqrkupaeddjghmrzvnrtiqg/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s306824138.503394
-e306824139.386048
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-grcowvqrkupaeddjghmrzvnrtiqg/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306824138#306824139#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch8636877920#1570"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphoneos -I/Users/cmp/MovementOne/build/Debug-iphoneos/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources/armv6 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-grcowvqrkupaeddjghmrzvnrtiqg/MovementOne_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/cmp/Library/MobileDevice/Provisioning Profiles/555CABE6-CDE3-4ECF-A3D4-2815C4650D49.mobileprovision" /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision
-s306824140.618655
-e306824140.619676
-r1
-xProcessProductPackaging
-x/Users/cmp/Library/MobileDevice/Provisioning Profiles/555CABE6-CDE3-4ECF-A3D4-2815C4650D49.mobileprovision
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/cmp/Library/MobileDevice/Provisioning Profiles/555CABE6-CDE3-4ECF-A3D4-2815C4650D49.mobileprovision" build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision306824140#306824140#0(0"0(0#0#84"/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision8639056384#409"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cmp/Library/MobileDevice/Provisioning Profiles/555CABE6-CDE3-4ECF-A3D4-2815C4650D49.mobileprovision" -o /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/cmp/Library/MobileDevice/Provisioning Profiles/A617AA53-FE6E-4362-B420-43EB9202010B.mobileprovision" /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision
-s306824321.370669
-e306824321.371790
-r1
-xProcessProductPackaging
-x/Users/cmp/Library/MobileDevice/Provisioning Profiles/A617AA53-FE6E-4362-B420-43EB9202010B.mobileprovision
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/cmp/Library/MobileDevice/Provisioning Profiles/A617AA53-FE6E-4362-B420-43EB9202010B.mobileprovision" build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision306824321#306824321#0(0"0(0#0#84"/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision4300911832#393"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/cmp/Library/MobileDevice/Provisioning Profiles/A617AA53-FE6E-4362-B420-43EB9202010B.mobileprovision" -o /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-s306824503.299808
-e306824503.315827
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
-x/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent306824503#306824503#0(0"0(0#0#97"/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent4300911832#412"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-s306824285.948022
-e306824285.972790
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent306824285#306824285#0(0"0(0#0#97"/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent4300911832#412"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent0#
-
-CProcessProductPackaging /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-s306824168.421797
-e306824168.434378
-r1
-xProcessProductPackaging
-x/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
-x/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-lSLF07#2@195"ProcessProductPackaging /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent306824168#306824168#0(0"0(0#0#97"/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent8636200704#436"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent0#
-
-CProcessProductPackaging /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-s306824140.622277
-e306824140.633867
-r1
-xProcessProductPackaging
-x/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent
-lSLF07#2@195"ProcessProductPackaging /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent306824140#306824140#0(0"0(0#0#97"/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent8630992768#436"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/SDK4.01/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphoneos/MovementOne.build/MovementOne.xcent0#
-
-CTouch /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-s318403405.807794
-e318403405.810230
-r1
-xTouch
-x/Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app
-lSLF07#2@65"Touch /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app318403405#318403405#0(0"0(0#0#0"4300911832#236"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cmp/MovementOne/build/Debug-iphoneos/MovementOne.app0#
-

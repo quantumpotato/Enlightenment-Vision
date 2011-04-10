@@ -1,281 +1,0 @@
-TMovementOne
-v7
-r0
-t306747996.425552
-cCheck dependencies
-cProcessInfoPlistFile /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/Info.plist MovementOne-Info.plist
-cCompileXIB /Users/cmp/MovementOne/MainWindow.xib
-cCompileXIB /Users/cmp/MovementOne/MovementOneViewController.xib
-cProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/main.o /Users/cmp/MovementOne/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneAppDelegate.o /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneViewController.o /Users/cmp/MovementOne/Classes/MovementOneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/Ball.o /Users/cmp/MovementOne/Classes/Ball.m normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C59BFF70000000000000132
-t1280950263
-s306
-
-N/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/cmp/MovementOne/Classes/Ball.h
-c000000004C9862DA00000000000001D1
-t1285055194
-s465
-i<Foundation/Foundation.h>
-
-N/Users/cmp/MovementOne/Classes/Ball.m
-c000000004C98624A00000000000000AB
-t1285055050
-s171
-i"Ball.h"
-
-N/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.h
-c000000004C98623900000000000001EC
-t1285055033
-s492
-i<UIKit/UIKit.h>
-
-N/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m
-c000000004C9862390000000000000A94
-t1285055033
-s2708
-i"MovementOneAppDelegate.h"
-i"MovementOneViewController.h"
-
-N/Users/cmp/MovementOne/Classes/MovementOneViewController.h
-c000000004C98623900000000000000EF
-t1285055033
-s239
-i<UIKit/UIKit.h>
-
-N/Users/cmp/MovementOne/Classes/MovementOneViewController.m
-c000000004C98623900000000000005BE
-t1285055033
-s1470
-i"MovementOneViewController.h"
-
-N/Users/cmp/MovementOne/MainWindow.xib
-c000000004C9862390000000000004E59
-t1285055033
-s20057
-
-N/Users/cmp/MovementOne/MovementOneViewController.xib
-c000000004C9862390000000000001A55
-t1285055033
-s6741
-
-N/Users/cmp/MovementOne/MovementOne_Prefix.pch
-c000000004C98623900000000000000BF
-t1285055033
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app
-t2
-s0
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app.dSYM
-t2
-s0
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/Info.plist
-t1285055194
-s607
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MainWindow.nib
-t1285055195
-s1131
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MovementOne
-t2
-s0
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MovementOneViewController.nib
-t1285055195
-s795
-
-N/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/PkgInfo
-t1285055194
-s8
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/Ball.o
-t2
-s0
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOne.LinkFileList
-c000000004C9862DA00000000000001EF
-t1285055194
-s495
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneAppDelegate.o
-t1285055196
-s47984
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneViewController.o
-t1285055196
-s34504
-
-N/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/main.o
-t1285055196
-s6304
-
-N/Users/cmp/MovementOne/main.m
-c000000004C9862390000000000000162
-t1285055033
-s354
-i<UIKit/UIKit.h>
-
-N/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch.gch
-t1285055196
-s15236112
-
-NMovementOne-Info.plist
-c000000004C986239000000000000038D
-t1285055033
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306747994#306747994#0(0"0(0#1#0"32651522506817640#0"0#
-
-CCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/Ball.o /Users/cmp/MovementOne/Classes/Ball.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306747996.374728
-e306747996.425504
-r0
-xCompileC
-xbuild/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/Ball.o
-x/Users/cmp/MovementOne/Classes/Ball.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/cmp/MovementOne/Classes/Ball.m:9:
-o/Users/cmp/MovementOne/Classes/Ball.h:29: error: property 'brake' with 'retain' attribute must be of object type
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'k' requires method '-k' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'k' requires the method 'setK:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'l' requires method '-l' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'l' requires the method 'setL:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'targetID' requires method '-targetID' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'targetID' requires the method 'setTargetID:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'brake' requires method '-brake' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'brake' requires the method 'setBrake:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: incomplete implementation of class 'Ball'
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: method definition for '+generateObstacle' not found
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: method definition for '+generateDeath' not found
-o/Users/cmp/MovementOne/Classes/Ball.m:14: warning: method definition for '+generateLife' not found
-lSLF07#2@45"Compile /Users/cmp/MovementOne/Classes/Ball.m306747996#306747996#0(1939"In file included from /Users/cmp/MovementOne/Classes/Ball.m:9:/Users/cmp/MovementOne/Classes/Ball.h:29: error: property 'brake' with 'retain' attribute must be of object type/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'k' requires method '-k' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'k' requires the method 'setK:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'l' requires method '-l' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'l' requires the method 'setL:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'targetID' requires method '-targetID' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'targetID' requires the method 'setTargetID:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'brake' requires method '-brake' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: property 'brake' requires the method 'setBrake:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cmp/MovementOne/Classes/Ball.m:14: warning: incomplete implementation of class 'Ball'/Users/cmp/MovementOne/Classes/Ball.m:14: warning: method definition for '+generateObstacle' not found/Users/cmp/MovementOne/Classes/Ball.m:14: warning: method definition for '+generateDeath' not found/Users/cmp/MovementOne/Classes/Ball.m:14: warning: method definition for '+generateLife' not found13(4@63"Property 'brake' with 'retain' attribute must be of object type306747996#63#113#2(7@59"In file included from /Users/cmp/MovementOne/Classes/Ball.m306747996#18446744073709551615#0#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#9#0#9#0#0"0(13@104"Property 'brake' with 'retain' attribute must be of object type in /Users/cmp/MovementOne/Classes/Ball.h306747996#18446744073709551615#0#0(6@37"/Users/cmp/MovementOne/Classes/Ball.h306747994#29#0#29#0#0"0(6@37"/Users/cmp/MovementOne/Classes/Ball.h306747994#29#0#29#0#0"0(22@110"Property 'k' requires method '-k' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#176#162#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@117"Property 'k' requires the method 'setK:' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#338#169#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@110"Property 'l' requires method '-l' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#507#162#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@117"Property 'l' requires the method 'setL:' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#669#169#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@124"Property 'targetID' requires method '-targetID' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#838#176#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@131"Property 'targetID' requires the method 'setTargetID:' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#1014#183#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@118"Property 'brake' requires method '-brake' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#1197#170#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@125"Property 'brake' requires the method 'setBrake:' to be defined - use @synthesize, @dynamic or provide a method implementation306747996#1367#177#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#0"0(22@41"Incomplete implementation of class 'Ball'306747996#1544#93#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#38"incomplete implementation of class '*'0(22@51"Method definition for '+generateObstacle' not found306747996#1637#103#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#35"method definition for '*' not found0(22@48"Method definition for '+generateDeath' not found306747996#1740#100#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#35"method definition for '*' not found0(22@47"Method definition for '+generateLife' not found306747996#1840#99#0(6@37"/Users/cmp/MovementOne/Classes/Ball.m306747850#14#0#14#0#35"method definition for '*' not found0(0#0#37"/Users/cmp/MovementOne/Classes/Ball.m8640482944#1845"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphonesimulator -I/Users/cmp/MovementOne/build/Debug-iphonesimulator/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources/i386 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/Ball.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/Ball.o1#
-
-CCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneAppDelegate.o /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306747996.172894
-e306747996.374634
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneAppDelegate.o
-x/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m306747996#306747996#0(0"0(0#0#55"/Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m8639506400#1881"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphonesimulator -I/Users/cmp/MovementOne/build/Debug-iphonesimulator/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources/i386 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/MovementOneAppDelegate.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneAppDelegate.o0#
-
-CCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneViewController.o /Users/cmp/MovementOne/Classes/MovementOneViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306747996.349616
-e306747996.425088
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneViewController.o
-x/Users/cmp/MovementOne/Classes/MovementOneViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/cmp/MovementOne/Classes/MovementOneViewController.m306747996#306747996#0(0"0(0#0#58"/Users/cmp/MovementOne/Classes/MovementOneViewController.m8625860064#1887"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphonesimulator -I/Users/cmp/MovementOne/build/Debug-iphonesimulator/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources/i386 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/Classes/MovementOneViewController.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/MovementOneViewController.o0#
-
-CCompileC build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/main.o /Users/cmp/MovementOne/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s306747996.171766
-e306747996.349458
-r1
-xCompileC
-xbuild/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/main.o
-x/Users/cmp/MovementOne/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Compile /Users/cmp/MovementOne/main.m306747996#306747996#0(0"0(0#0#29"/Users/cmp/MovementOne/main.m8619273824#1837"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphonesimulator -I/Users/cmp/MovementOne/build/Debug-iphonesimulator/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources/i386 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources -include /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch -c /Users/cmp/MovementOne/main.m -o /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/cmp/MovementOne/MainWindow.xib
-s306747994.831126
-e306747995.210120
-r1
-xCompileXIB
-x/Users/cmp/MovementOne/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib306747994#306747995#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#37"/Users/cmp/MovementOne/MainWindow.xib8640437664#558"    cd /Users/cmp/MovementOne    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MainWindow.nib /Users/cmp/MovementOne/MainWindow.xib --sdk /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/cmp/MovementOne/MovementOneViewController.xib
-s306747994.832326
-e306747995.260109
-r1
-xCompileXIB
-x/Users/cmp/MovementOne/MovementOneViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@40"CompileXIB MovementOneViewController.xib306747994#306747995#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#52"/Users/cmp/MovementOne/MovementOneViewController.xib30962681237012580#588"    cd /Users/cmp/MovementOne    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MovementOneViewController.nib /Users/cmp/MovementOne/MovementOneViewController.xib --sdk /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CGenerateDSYMFile /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app.dSYM /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MovementOne
-r0
-
-CLd /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/MovementOne normal i386
-r0
-
-CProcessInfoPlistFile /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/Info.plist MovementOne-Info.plist
-s306747994.797139
-e306747994.831046
-r1
-xProcessInfoPlistFile
-x/Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/Info.plist
-xMovementOne-Info.plist
-lSLF07#2@30"Process MovementOne-Info.plist306747994#306747994#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne-Info.plist28429479461191756#459"    cd /Users/cmp/MovementOne    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MovementOne-Info.plist -genpkginfo /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app/Info.plist0#
-
-CProcessPCH /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch.gch MovementOne_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s306747995.260275
-e306747996.171670
-r1
-xProcessPCH
-x/var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch.gch
-xMovementOne_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MovementOne_Prefix.pch306747995#306747996#0(0"0(0#0#45"/Users/cmp/MovementOne/MovementOne_Prefix.pch8617454368#1741"    cd /Users/cmp/MovementOne    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.01/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/SDK4.01/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-generated-files.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-own-target-headers.hmap -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-all-target-headers.hmap -iquote /Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/MovementOne-project-headers.hmap -F/Users/cmp/MovementOne/build/Debug-iphonesimulator -I/Users/cmp/MovementOne/build/Debug-iphonesimulator/include -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources/i386 -I/Users/cmp/MovementOne/build/MovementOne.build/Debug-iphonesimulator/MovementOne.build/DerivedSources -c /Users/cmp/MovementOne/MovementOne_Prefix.pch -o /var/folders/Z7/Z7f7b2yHHXuYr9sBp9SHME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MovementOne_Prefix-dguxkkcfghalvrcqtduhltgltvhr/MovementOne_Prefix.pch.gch0#
-
-CTouch /Users/cmp/MovementOne/build/Debug-iphonesimulator/MovementOne.app
-r0
-

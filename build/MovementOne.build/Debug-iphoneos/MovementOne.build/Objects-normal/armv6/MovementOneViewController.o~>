@@ -1,2 +1,0 @@
-/Users/cmp/MovementOne/Classes/MovementOneViewController.m: In function '-[MovementOneViewController obstacleLoop]':
-/Users/cmp/MovementOne/Classes/MovementOneViewController.m:269: warning: unused variable 'l'
