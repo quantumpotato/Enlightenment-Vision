@@ -20,4 +20,6 @@
 
 -(void)move;
 
+-(id)initWithGoal:(Ball *)targetLife;
+
 @end

@@ -17,9 +17,9 @@
 		self.k = KIND_LIFE;
 		self.l = CGPointMake(-30,-30);
 		self.targetID = KIND_UNDERSTANDING;
-		self.brake = 4;
+		self.brake = 3;
 		self.accel = .43;
-		self.maxMomentum = 7; //7;
+		self.maxMomentum = 6; //7;
 		self.strength = 100;
 		self.maxStrength = 100;
 		self.image = @"greenblot.png";
@@ -69,18 +69,6 @@
 		}
 	}
 	
-	if (self.vel.x > 8) {
-		self.vel = SXetX(self.vel, 8);
-	} else if (self.vel.x < -8) {
-		self.vel = SXetX(self.vel, -8);
-	}
-	
-	if (self.vel.y > 8) {
-		self.vel = SYetY(self.vel, 8);
-	} else if (self.vel.y < -8) {
-		self.vel = SYetY(self.vel, -8);
-	}
-
 
 	if (self.vel.x > -2 && self.vel.x < 2) {
 		if (self.target.x > self.l.x) {

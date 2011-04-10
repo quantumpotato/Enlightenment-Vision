@@ -10,7 +10,7 @@
 
 
 @implementation Mind
-@synthesize view, life, vision;
+@synthesize view, life, vision, death;
 
 -(id)initWithView:(UIView *)newView {
 	self = [super init];
@@ -21,6 +21,8 @@
 		self.vision = [[Vision alloc] init];
 		[newView addSubview:self.vision.imageView];
 		[self resetPhysics];
+		self.death = [[Death alloc] initWithGoal:self.life];
+		[newView addSubview:self.death.imageView];
 		
 		timer = [[NSTimer scheduledTimerWithTimeInterval:0.04 target:self selector:@selector(loop) userInfo:nil repeats:YES] retain];
 	}
@@ -58,9 +60,9 @@
 		[self.life move];	
 		[self.vision move];
 		self.vision.imageView.alpha = self.life.strength / 100;
-		
 		[self checkForEnlightenment];
 		
+		[self.death move];
 	}
 }
 

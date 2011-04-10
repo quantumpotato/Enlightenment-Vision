@@ -297,6 +297,20 @@
 -(void)move {
 	self.l = CombineVel(self.l, self.vel);
 	self.imageView.center = self.l;
+	
+	
+	if (self.vel.x > self.maxMomentum) {
+		self.vel = SXetX(self.vel, self.maxMomentum);
+	} else if (self.vel.x < -8) {
+		self.vel = SXetX(self.vel, -self.maxMomentum);
+	}
+	
+	if (self.vel.y > self.maxMomentum) {
+		self.vel = SYetY(self.vel, self.maxMomentum);
+	} else if (self.vel.y < -self.maxMomentum) {
+		self.vel = SYetY(self.vel, -self.maxMomentum);
+	}
+	
 }
 
 -(void)recover {

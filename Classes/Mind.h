@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "Life.h"
 #import "Vision.h"
+#import "Death.h"
 
 @interface Mind : NSObject {
 	UIView *view;
 	Life *life;
 	Vision *vision;
+	Death *death;
 	
 	int shotset, shot, sshot;
 	int orangedeflects;
@@ -27,6 +29,7 @@
 @property(nonatomic,retain) UIView *view;
 @property(nonatomic,retain) Life *life;
 @property(nonatomic,retain) Vision *vision;
+@property(nonatomic,retain) Death *death;
 
 -(id)initWithView:(UIView *)newView;
 
