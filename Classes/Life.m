@@ -128,5 +128,13 @@
 	
 }
 
+-(void)resetPosition {
+	self.l = CGPointMake(-30,-30);	
+}
+
+-(void)reset {
+	self.strength = 100;
+	[self resetPosition];
+}
 
 @end

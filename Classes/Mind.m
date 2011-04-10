@@ -43,6 +43,7 @@
 	if (self.life.strength <= 0) {
 		[self visionFailed];
 	}
+	[self.life resetPosition];
 }
 
 -(void)checkForEnlightenment {
@@ -56,7 +57,8 @@
 	if (gamestate == 1) {
 		[self.life move];	
 		[self.vision move];
-	
+		self.vision.imageView.alpha = self.life.strength / 100;
+		
 		[self checkForEnlightenment];
 		
 	}
@@ -68,6 +70,7 @@
 	shot = 1;
 	pillarRadius = 25;
 	gamestate = 1;
+	[self.life reset];
 }
 
 

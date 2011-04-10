@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* MovementOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MovementOneViewController.m */; };
 		BF0A529F134D526E006A6D01 /* Life.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A529E134D526E006A6D01 /* Life.m */; };
 		BF2E7BAF135164AF004E5002 /* whitedot8.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2E7BAE135164AF004E5002 /* whitedot8.png */; };
+		BF2E7C2D13517083004E5002 /* Death.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E7C2C13517083004E5002 /* Death.m */; };
 		BF491159124899CA006E6E90 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = BF491158124899CA006E6E90 /* Ball.m */; };
 		BFA7834D1248DEE50087F688 /* whitedot.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA783491248DEE50087F688 /* whitedot.png */; };
 		BFA7834E1248DEE50087F688 /* redtriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA7834A1248DEE50087F688 /* redtriangle.png */; };
@@ -44,6 +45,8 @@
 		BF0A529D134D526E006A6D01 /* Life.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Life.h; sourceTree = "<group>"; };
 		BF0A529E134D526E006A6D01 /* Life.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Life.m; sourceTree = "<group>"; };
 		BF2E7BAE135164AF004E5002 /* whitedot8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitedot8.png; sourceTree = "<group>"; };
+		BF2E7C2B13517083004E5002 /* Death.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Death.h; sourceTree = "<group>"; };
+		BF2E7C2C13517083004E5002 /* Death.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Death.m; sourceTree = "<group>"; };
 		BF491157124899CA006E6E90 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		BF491158124899CA006E6E90 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
 		BFA783491248DEE50087F688 /* whitedot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitedot.png; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				BFBB15FC13515C2C0098B193 /* Mind.m */,
 				BFBB1656135162450098B193 /* Vision.h */,
 				BFBB1657135162450098B193 /* Vision.m */,
+				BF2E7C2B13517083004E5002 /* Death.h */,
+				BF2E7C2C13517083004E5002 /* Death.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				BF0A529F134D526E006A6D01 /* Life.m in Sources */,
 				BFBB15FD13515C2C0098B193 /* Mind.m in Sources */,
 				BFBB1658135162450098B193 /* Vision.m in Sources */,
+				BF2E7C2D13517083004E5002 /* Death.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

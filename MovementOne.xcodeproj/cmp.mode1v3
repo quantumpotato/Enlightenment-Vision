@@ -272,8 +272,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
+									<integer>16</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
 									<integer>17</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -325,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BF2E7C0C13516EFD004E5002</string>
+										<string>BF2E7C5313517390004E5002</string>
 										<key>history</key>
 										<array>
 											<string>BFC8FF4B1249C83500FC6940</string>
@@ -369,7 +374,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Mind.m</string>
+								<string>Death.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -377,11 +382,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Mind.m</string>
+										<string>Death.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BF2E7C0F13516EFD004E5002</string>
+										<string>BF2E7C5413517390004E5002</string>
 										<key>history</key>
 										<array>
 											<string>BFC8FF4A1249C83500FC6940</string>
@@ -394,10 +399,12 @@
 											<string>BFBB162313515E330098B193</string>
 											<string>BFBB1663135162CC0098B193</string>
 											<string>BF2E7BCF13516DCB004E5002</string>
-											<string>BF2E7BD013516DCB004E5002</string>
 											<string>BF2E7BD113516DCB004E5002</string>
-											<string>BF2E7C0D13516EFD004E5002</string>
-											<string>BF2E7C0E13516EFD004E5002</string>
+											<string>BF2E7C2713517038004E5002</string>
+											<string>BF2E7C30135170B2004E5002</string>
+											<string>BF2E7C31135170B2004E5002</string>
+											<string>BF2E7C46135172A6004E5002</string>
+											<string>BF2E7C47135172A6004E5002</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -597,13 +604,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BF2E7C0713516EC6004E5002</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>BF2E7BBE135164B9004E5002</string>
 		<string>BF2E7BBF135164B9004E5002</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BF4911A11248AE8B006E6E90</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Users/cmp/MovementOne/MovementOne.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -912,7 +918,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C530D57069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
