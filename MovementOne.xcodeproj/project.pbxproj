@@ -177,8 +177,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MovementOne" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -247,7 +250,7 @@
 				PRODUCT_NAME = MovementOne;
 				PROVISIONING_PROFILE = "A617AA53-FE6E-4362-B420-43EB9202010B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A617AA53-FE6E-4362-B420-43EB9202010B";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos8.4;
 			};
 			name = Debug;
 		};
@@ -264,7 +267,7 @@
 				PRODUCT_NAME = MovementOne;
 				PROVISIONING_PROFILE = "A617AA53-FE6E-4362-B420-43EB9202010B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A617AA53-FE6E-4362-B420-43EB9202010B";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos8.4;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -282,7 +285,7 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "A617AA53-FE6E-4362-B420-43EB9202010B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A617AA53-FE6E-4362-B420-43EB9202010B";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos8.4;
 			};
 			name = Debug;
 		};
@@ -300,7 +303,7 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "A617AA53-FE6E-4362-B420-43EB9202010B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A617AA53-FE6E-4362-B420-43EB9202010B";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos8.4;
 			};
 			name = Release;
 		};
